@@ -1,24 +1,21 @@
 import React from "react";
 import ReactRoboHash from "react-robohash";
 
-const Card = () => {
+const Card = ({name, email, id}) => {
   return (
-    <div>
-      <image
-        alt="robot friends"
-        src={{ uri: "https://robohash.org/testadfd" }}
-      />
+    <div className="tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5">
+      <image alt="robot friends" src={`https://robohash.org/${id}?200x200`} />
       <div>
         <ReactRoboHash
-          name="cat"
-          type="head"
+          name="megan"
+          type=""
           background={1}
           fileType="svg"
           gravatar
           size={200}
         />
-        <p>Jane Doe</p>
-        <p>jdoe@gmail.com</p>
+        <p>{name}</p>
+        <p>{email}</p>
       </div>
     </div>
   );
