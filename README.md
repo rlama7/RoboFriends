@@ -69,3 +69,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### Test
 This is a test space
+<<<<<<< HEAD
+=======
+
+### Footer
+Sample test
+>>>>>>> aeb33bd48a76d662ff68ce3d13dd79b0d4ce1a7a
